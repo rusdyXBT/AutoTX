@@ -1,5 +1,9 @@
 # 🚀 AutoTX Bot
 
+Simple bot for automated transactions.
+
+---
+
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-18+-green?style=for-the-badge&logo=node.js" />
   <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
@@ -13,25 +17,60 @@
 
 ---
 
-## 📌 Overview
-
-**AutoTX Bot** is a lightweight automation tool designed to simplify crypto transactions across multiple wallets.
-
-It supports:
-- 🔁 **One-to-Many Transfers** (1 wallet → multiple addresses)
-- 🔁 **Many-to-One Transfers** (multiple wallets → 1 address)
----
-
-## ⚡ Installation
-Clone the repository and install dependencies:
+## 📦 Install
 
 ```bash
 git clone https://github.com/rusdyXBT/AutoTX
-
-## open folder
-```bash
 cd AutoTX
-
-## install package
-```bash
 npm install
+```
+
+---
+
+## ⚙️ Setup
+
+Create `.env`:
+
+```env
+PRIVATE_KEY=your_private_key_here
+```
+
+---
+
+## 🔹 One → Many
+
+Edit `address.txt`:
+
+```
+0xAddress1
+0xAddress2
+0xAddress3
+```
+
+---
+
+## 🔹 Many → One
+
+Edit `pk.txt`:
+
+```
+private_key_1
+private_key_2
+private_key_3
+```
+
+---
+
+## ▶️ Run
+
+```bash
+node main.js
+```
+
+---
+
+## ⚠️ Notes
+
+- Keep private key safe
+- Don't upload sensitive files
+- Test with small amount first
