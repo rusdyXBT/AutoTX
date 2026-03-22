@@ -20,16 +20,18 @@
 It supports:
 - 🔁 **One-to-Many Transfers** (1 wallet → multiple addresses)
 - 🔁 **Many-to-One Transfers** (multiple wallets → 1 address)
-
-Perfect for airdrop farmers, automation users, and power users.
-
 ---
 
 ## ⚡ Installation
-
 Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/rusdyXBT/AutoTX
+
+## open folder
+```bash
 cd AutoTX
+
+## install package
+```bash
 npm install
