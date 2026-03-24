@@ -20,9 +20,7 @@ Simple bot for automated transactions.
 ## 📦 Install
 
 ```bash
-git clone https://github.com/rusdyXBT/AutoTX
-cd AutoTX
-npm install
+git clone https://github.com/rusdyXBT/AutoTX && cd AutoTX && npm install
 ```
 
 ---
@@ -66,11 +64,3 @@ private_key_3
 ```bash
 node main.js
 ```
-
----
-
-## ⚠️ Notes
-
-- Keep private key safe
-- Don't upload sensitive files
-- Test with small amount first
